@@ -1,4 +1,4 @@
-#include "plugin.hpp"
+#include "Plugin.hpp"
 
 
 Plugin* pluginInstance;

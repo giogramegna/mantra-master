@@ -1,4 +1,4 @@
-#include "plugin.hpp"
+#include "Plugin.hpp"
 
 
 Plugin* pluginInstance;
@@ -13,4 +13,5 @@ void init(rack::Plugin* p) {
 	p->addModel(modelPanelA4);
 	p->addModel(modelPanelB4);
 	p->addModel(modelPanelC4);
+	p->addModel(modelPanelD4);
 }
